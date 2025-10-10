@@ -9,7 +9,7 @@ function ListaPeliculas() {
                         <img 
                             src={`./${peliculas.imagen}`} 
                             alt={peliculas.titulo} 
-                            className='w-full rounded-2xl mb-4 h-120'
+                            className='w-full rounded-2xl mb-4'
                         />
                         <h3 className='text-gray-500 text-2xl mb-5 font-semibold'>{peliculas.titulo}</h3>
                         <p className='text-gray-500 text-sm mt-1'>
