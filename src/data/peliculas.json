@@ -4,13 +4,50 @@
         "id": 1,
         "titulo": "Barbie",
         "año": 2023,
-        "genero": "Comedia"
+        "genero": "Comedia",
+        "imagen": "barbie.webp"
     },
     {
         "id": 2,
         "titulo": "Elementos",
         "año": 2023,
-        "genero": "Animación"
+        "genero": "Animación",
+        "imagen": "elementos.jpeg"
+    },
+    {
+      "id": 3,
+      "titulo": "Avenger",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "avengers.webp"
+    },
+    {
+      "id": 4,
+      "titulo": "La Casa de Papel",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "casa_de_papel.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "Juego de Tronos",
+      "año": 2023,
+      "genero": "Drama",
+      "imagen": "juego_de_tronos.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "El Señor de los Anillos",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "señor_de_los_anillos.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Harry Potter",
+      "año": 2023,
+      "genero": "Accion",
+      "imagen": "harry_potter.webp"
     }
   ]
 }

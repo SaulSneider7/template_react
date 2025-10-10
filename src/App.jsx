@@ -13,6 +13,7 @@ import Footer from './components/footer'
 import Caracteristicas from './pages/caracteristicas'
 import Contacto from './pages/contacto'
 import ListaPeliculas from './components/peliculas'
+import Mascotas from './components/mascotas'
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='/caracteristicas' element={<Caracteristicas />} />
           <Route path='/contacto'element={<Contacto />} />
           <Route path='/peliculas' element={<ListaPeliculas />} />
+          <Route path='/mascotas' element={<Mascotas />} />
         </Routes>
 
         <Footer />
