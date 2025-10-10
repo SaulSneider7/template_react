@@ -11,24 +11,6 @@
         "titulo": "Elementos",
         "año": 2023,
         "genero": "Animación"
-    },
-    {
-        "id": 3,
-        "titulo": "Que paso ayer",
-        "año": "2025",
-        "genero": "Comedia"
-    },
-    {
-        "id": 4,
-        "titulo": "La vida es bella",
-        "año": "1997",
-        "genero": "Drama"
-    },
-    {
-        "id": 5,
-        "titulo": "El padrino",
-        "año": "1972",
-        "genero": "Drama"
     }
   ]
 }

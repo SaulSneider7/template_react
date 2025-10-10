@@ -1,9 +1,9 @@
 // npm install react-router-dom
-import { useState } from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import './App.css'
+import './App.css' 
 import Header from './components/header'
 import Hero from './components/hero'
 import Contenido from './components/contenido'
@@ -21,22 +21,10 @@ function App() {
         <Header />
         <Hero />
         <Routes>
-          <Route 
-            path='/'
-            element={<Contenido />}
-          />
-          <Route 
-            path='/caracteristicas'
-            element={<Caracteristicas />}
-          />
-          <Route 
-            path='/contacto'
-            element={<Contacto />}
-          />
-          <Route 
-            path='/peliculas'
-            element={<ListaPeliculas />}
-          />
+          <Route path='/' element={<Contenido />} />
+          <Route path='/caracteristicas' element={<Caracteristicas />} />
+          <Route path='/contacto'element={<Contacto />} />
+          <Route path='/peliculas' element={<ListaPeliculas />} />
         </Routes>
 
         <Footer />
