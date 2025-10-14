@@ -4,43 +4,64 @@
       "id": 1,
       "titulo": "Barbie",
       "año": 2023,
-      "genero": "Comedia"
+      "genero": "Comedia",
+      "imagen": "barbie.webp",
+      "sinopsis": "Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie parte hacia el mundo humano para encontrar la verdadera felicidad.",
+      "calificacion": 8
     },
     {
       "id": 2,
       "titulo": "Elementos",
       "año": 2023,
-      "genero": "Animación"
+      "genero": "Animación",
+      "imagen": "elementos.jpeg",
+      "sinopsis": "En una ciudad en la que los elementos de fuego, agua, tierra y aire viven en distritos separados, una chica de fuego y un chico de agua descubren que, aunque la sociedad les diga lo contrario, tienen muchas cosas en común.",
+      "calificacion": 9
     },
     {
       "id": 3,
       "titulo": "Avenger",
       "año": 2023,
-      "genero": "Accion"
+      "genero": "Accion",
+      "imagen": "avengers.webp",
+      "sinopsis": "Cuando un enemigo inesperado surge como una gran amenaza para la seguridad mundial, Nick Fury, director de la Agencia SHIELD, decide reclutar a un equipo para salvar al mundo de un desastre casi seguro. Adaptación del cómic de Marvel Los Vengadores, el legendario grupo de superhéroes formado por Ironman, Hulk, Thor y el Capitán América entre otros.",
+      "calificacion": 10
     },
     {
       "id": 4,
       "titulo": "La Casa de Papel",
       "año": 2023,
-      "genero": "Accion"
+      "genero": "Accion",
+      "imagen": "casa_de_papel.jpg",
+      "sinopsis": "a serie La casa de papel trata de un grupo de atracadores liderados por un misterioso hombre llamado el Profesor, que planean y ejecutan asaltos complejos a instituciones financieras españolas, como la Fábrica Nacional de Moneda y Timbre y el Banco de España, tomando rehenes y manipulando a la policía para lograr sus objetivos",
+      "calificacion": 9
     },
     {
       "id": 5,
       "titulo": "Juego de Tronos",
       "año": 2023,
-      "genero": "Drama"
+      "genero": "Drama",
+      "imagen": "juego_de_tronos.jpg",
+      "sinopsis": "Juego de Tronos es una pelicula de fantasia.",
+      "calificacion": 10
     },
     {
       "id": 6,
       "titulo": "El Señor de los Anillos",
       "año": 2023,
-      "genero": "Accion"
+      "genero": "Accion",
+      "imagen": "señor_de_los_anillos.jpg",
+      "sinopsis": "El Señor de los Anillos es una pelicula de fantasia.",
+      "calificacion": 9
     },
     {
       "id": 7,
       "titulo": "Harry Potter",
       "año": 2023,
-      "genero": "Accion"
+      "genero": "Accion",
+      "imagen": "harry_potter.webp",
+      "sinopsis": "Harry Potter es una pelicula de fantasia. El protagonista es un mago de magia y hechiceria.",
+      "calificacion": 10
     }
   ]
 }
