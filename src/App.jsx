@@ -1,12 +1,6 @@
 // npm install react-router-dom
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
-
-//importamos firebase
-import app from './firebase'
-//Autentication
-import { getAuth, signOut } from 'firebase/auth';
-
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -14,6 +8,9 @@ import Header from "./components/header";
 import Hero from "./components/hero";
 import Contenido from "./components/contenido";
 import Footer from "./components/footer";
+//firebase
+import app from "./firebase";
+
 
 // Mis paginas
 import Caracteristicas from "./pages/caracteristicas";
@@ -41,9 +38,8 @@ function App() {
             </>
 
             } />
-            <Route path="/login" element={<Login />} />
-            <Route path="/registrar" element={<RegistrarUsuario />} />
-
+          <Route path="/iniciar-sesion" element={<Login />} />
+          <Route path="/registrar-usuario" element={<RegistrarUsuario />} />
         </Routes>
 
         <Footer />
