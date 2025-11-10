@@ -1,13 +1,15 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { getAuth, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 //Proveedor de Google
 const provider = new GoogleAuthProvider();
-
 
 function Login() {
   //Iniciar sesion con email y password
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  //Redireccionar
+  const navigate = useNavigate();
 
   //funcion para iniciar con correo y contraseña
   const iniciarSesion = async() => {
@@ -18,6 +20,7 @@ function Login() {
             const user = userCredential.user;
             console.log("Se inicio sesion");
             // onLogin(user);
+            navigate("/");
         })
         .catch((error) => {
             const errorCode = error.code;
@@ -37,6 +40,7 @@ function Login() {
             const user = result.user;
             console.log("Iniciaste sesion con Google");
             // onLogin(user);
+            navigate("/");
             
         }).catch((error) => {
             const errorCode = error.code;
