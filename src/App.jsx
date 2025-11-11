@@ -16,6 +16,8 @@ import app from "./firebase";
 import Caracteristicas from "./pages/caracteristicas";
 import Contacto from "./pages/contacto";
 import ListaPeliculas from "./components/peliculas";
+import Comunidad from "./components/comunidad";
+import RutaPrivada from "./components/rutaprivada";
 
 import Login from "./components/Login";
 import RegistrarUsuario from "./components/RegistrarUsuario";
@@ -32,14 +34,20 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/peliculas" element={<ListaPeliculas />} />
           <Route path="/prueba" element={
-            <>
-              <Login />
-              <RegistrarUsuario />
-            </>
-
+              <>
+                <Login />
+                <RegistrarUsuario />
+              </>
             } />
           <Route path="/iniciar-sesion" element={<Login />} />
           <Route path="/registrar-usuario" element={<RegistrarUsuario />} />
+          <Route path="/comunidad" element={
+            <>
+              <RutaPrivada>
+                <Comunidad />
+              </RutaPrivada>
+            </>
+          } />
         </Routes>
 
         <Footer />

@@ -13,6 +13,7 @@ function NavbarVisitante() {
                         <li><Link to="/caracteristicas">Características</Link></li>
                         <li><Link to="/contacto">Contacto</Link></li>
                         <li><Link to="/peliculas">Peliculas</Link></li>
+                        <li><Link to="/comunidad">Comunidad</Link></li>
                         <li><Link to="/iniciar-sesion">Iniciar sesion</Link></li>
                         <li><Link to="/registrar-usuario">Registrarse</Link></li>
                     </ul>

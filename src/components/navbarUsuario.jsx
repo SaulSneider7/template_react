@@ -20,6 +20,7 @@ function NavbarUsuario() {
                         <li><Link to="/caracteristicas">Características</Link></li>
                         <li><Link to="/contacto">Contacto</Link></li>
                         <li><Link to="/peliculas">Peliculas</Link></li>
+                        <li><Link to="/comunidad">Comunidad</Link></li>
                         <li><button onClick={cerrarSesion}>Cerrar sesion</button></li>
                     </ul>
                 </nav>
