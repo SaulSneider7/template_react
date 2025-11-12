@@ -4,6 +4,7 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 function Comunidad() {
     const [nombre, setNombre] = useState("");
     const [email, setEmail] = useState("");
+    const [foto, setFoto] = useState("");
     const [cargando, setCargando] = useState(true);
 
     useEffect(()=>{
@@ -14,9 +15,11 @@ function Comunidad() {
             if (user) {
                 setEmail(user.email);
                 setNombre(user.displayName || "Usuario sin nombre");
+                setFoto(user.photoURL)
             } else {
                 setEmail("");
                 setNombre("");
+                setFoto("");
             }
             setCargando(false);
         });
@@ -30,6 +33,7 @@ function Comunidad() {
     
     return (
         <div className="p-8 text-center">
+            <img src={foto} alt="" />
             <h1 className="text-3xl font-bold mb-4">Bienvenido a la comunidad</h1>
             <p className="text-lg">Hola, <strong>{nombre}</strong></p>
             <p className="text-gray-600">Tu correo: {email}</p>
@@ -38,6 +42,7 @@ function Comunidad() {
             <p className="text-gray-700">
                 Aquí podrás interactuar con otros usuarios y compartir tus ideas.
             </p>
+            
         </div>
     )
 }
