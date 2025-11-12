@@ -75,7 +75,7 @@ function Comunidad() {
                 value={nuevaFoto}
                 onChange={(e) => setNuevaFoto(e.target.value)}
             />
-            <button onClick={actualizarPerfil}>Actualizar perfil</button>
+            <button className="bg-blue-500 text-white font-bold mx-2 py-2 px-4 rounded" onClick={actualizarPerfil}>Actualizar perfil</button>
 
             <hr className="my-6" />
             <p className="text-gray-700">
